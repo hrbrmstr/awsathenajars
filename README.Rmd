@@ -1,0 +1,40 @@
+---
+output: rmarkdown::github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# awsathenajars
+
+Java Archive Wrapper Supporting the 'awsathena' Package
+
+## Description
+
+Contains all supporting JARs for working with the AWS Java SDK for
+Amazon Athena. Version number matches version number of included
+'aws-java-sdk-athena' library.
+
+## Installation
+
+```{r eval=FALSE}
+devtools::install_git("git@git.sr.ht:~hrbrmstr/awsathenajars")
+# OR
+devtools::install_gitlab("hrbrmstr/awsathenajars")
+# OR
+devtools::install_github("hrbrmstr/awsathenajars")
+```
+
+## Usage
+
+```{r}
+library(rJava)
+library(awsathenajars)
+
+packageVersion("awsathenajars")
+```
+
+## `awsathenajars` Metrics
+
+```{r cloc, echo=FALSE}
+cloc::cloc_pkg_md()
+```

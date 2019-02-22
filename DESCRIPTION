@@ -1,0 +1,24 @@
+Package: awsathenajars
+Type: Package
+Title: Java Archive Wrapper Supporting the 'awsathena' Package
+Version: 1.11.504
+Date: 2019-02-22
+Authors@R: c(
+    person("Bob", "Rudis", role = c("aut", "cre"), email = "bob@rud.is")
+  )
+Maintainer: Bob Rudis <bob@rud.is>
+SystemRequirements: Java
+Description: Contains all supporting JARs for working with the AWS Java SDK for
+    Amazon Athena. Version number matches version number of included
+    'aws-java-sdk-athena' library.
+URL: https://github.com/hrbrmstr/awsathenajars
+BugReports: https://github.com/hrbrmstr/awsathenajars/issues
+License: Apache License 2.0 | file LICENSE
+Encoding: UTF-8
+Suggests:
+    testthat,
+    covr
+Depends:
+    R (>= 3.2.0),
+    rJava
+RoxygenNote: 6.1.1
