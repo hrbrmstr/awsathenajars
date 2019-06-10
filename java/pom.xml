@@ -12,13 +12,13 @@
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-athena</artifactId>
-      <version>1.11.504</version>
+      <version>1.11.568</version>
     </dependency>
 
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk-s3</artifactId>
-      <version>1.11.504</version>
+      <version>1.11.568</version>
     </dependency>
 
   </dependencies>
