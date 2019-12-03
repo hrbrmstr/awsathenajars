@@ -22,23 +22,30 @@ devtools::install_github("hrbrmstr/awsathenajars")
 ## Usage
 
 ``` r
-library(awsathenajars)
+library(rJava)
 ```
 
-    ## Loading required package: rJava
+    ## 
+    ## Attaching package: 'rJava'
+
+    ## The following object is masked from 'package:bit':
+    ## 
+    ##     clone
 
 ``` r
+library(awsathenajars)
+
 packageVersion("awsathenajars")
 ```
 
-    ## [1] '1.11.504'
+    ## [1] '1.11.685'
 
 ## `awsathenajars` Metrics
 
 | Lang  | \# Files | (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 | :---- | -------: | --: | --: | ---: | ----------: | ---: | -------: | ---: |
-| Java  |        2 | 0.2 |  28 | 0.37 |           5 | 0.22 |       18 | 0.28 |
-| Maven |        1 | 0.1 |  17 | 0.22 |           2 | 0.09 |        0 | 0.00 |
-| R     |        5 | 0.5 |  15 | 0.20 |           1 | 0.04 |       26 | 0.41 |
-| make  |        1 | 0.1 |  10 | 0.13 |           4 | 0.17 |        0 | 0.00 |
-| Rmd   |        1 | 0.1 |   6 | 0.08 |          11 | 0.48 |       20 | 0.31 |
+| Java  |        2 | 0.2 |  28 | 0.34 |           5 | 0.21 |       18 | 0.27 |
+| Maven |        1 | 0.1 |  22 | 0.27 |           3 | 0.12 |        0 | 0.00 |
+| R     |        5 | 0.5 |  15 | 0.18 |           1 | 0.04 |       26 | 0.39 |
+| make  |        1 | 0.1 |  10 | 0.12 |           4 | 0.17 |        0 | 0.00 |
+| Rmd   |        1 | 0.1 |   7 | 0.09 |          11 | 0.46 |       22 | 0.33 |

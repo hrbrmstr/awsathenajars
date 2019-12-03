@@ -3,7 +3,6 @@
 \docType{package}
 \name{awsathenajars}
 \alias{awsathenajars}
-\alias{awsathenajars-package}
 \title{Contents of the ...}
 \description{
 Contents of the ...
