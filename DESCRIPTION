@@ -1,7 +1,7 @@
 Package: awsathenajars
 Type: Package
 Title: Java Archive Wrapper Supporting the 'awsathena' Package
-Version: 1.11.685
+Version: 1.12.489
 Date: 2019-12-03
 Authors@R: c(
     person("Bob", "Rudis", role = c("aut", "cre"), email = "bob@rud.is")
@@ -21,4 +21,4 @@ Suggests:
 Depends:
     R (>= 3.2.0),
     rJava
-RoxygenNote: 7.0.1
+RoxygenNote: 7.2.3

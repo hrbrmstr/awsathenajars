@@ -4,9 +4,6 @@
 \name{awsathenajars}
 \alias{awsathenajars}
 \title{Contents of the ...}
-\description{
-Contents of the ...
-}
 \author{
 Bob Rudis (bob@rud.is)
 }

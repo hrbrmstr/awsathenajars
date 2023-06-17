@@ -17,10 +17,6 @@ Amazon Athena. Version number matches version number of included
 ## Installation
 
 ```{r eval=FALSE}
-devtools::install_git("git@git.sr.ht:~hrbrmstr/awsathenajars")
-# OR
-devtools::install_gitlab("hrbrmstr/awsathenajars")
-# OR
 devtools::install_github("hrbrmstr/awsathenajars")
 ```
 
